@@ -1,0 +1,236 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.baru {
+  background: linear-gradient(45deg, #000000,#010101c3,#000000c3);
+}
+
+
+/* Mengatur tata letak untuk elemen navbar-nav agar berada di tengah */
+.gajah {
+  display: flex;
+  justify-content: center; /* Mengatur posisi horizontal ke tengah */
+  width: 100%;
+}
+
+
+.navbar {
+  background: linear-gradient(45deg, #000000,#010101c3,#000000c3);
+  width: 100%;
+  padding-left: 20px;
+}
+
+.navbar-atur
+{
+  margin-left: 10px
+}
+
+
+.navbar-nav .nav-link {
+  color: white !important;
+  width: fit-content;
+}
+
+  .blue{
+    font-family: 'Franklin Gothic Medium';
+
+  }
+
+  
+  .nav-link.active {
+    width: fit-content;
+    background-color: #FF0000; /* Ganti dengan warna latar belakang yang Anda inginkan */
+  }
+  
+  /* Gaya untuk teks dalam item navbar yang aktif */
+  .nav-link.active a {
+    color: #FFFFFF; /* Ganti dengan warna teks yang sesuai */
+  }
+
+  .bay {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  footer a {
+    color: white;
+  }
+
+.remove-bullet ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.custom-content {
+  flex: 1;
+  max-width: 100%;
+  margin-right: 15%; /* Atur jarak antara konten utama dan daftar pos */
+
+}
+
+.custom-post-list {
+  flex: 1;
+  max-width: 100%;
+  margin-left:auto; /* Atur jarak antara konten utama dan daftar pos */
+
+}
+
+/* Hover effect */
+.btn-danger {
+  background-image: linear-gradient(to right, #353535, #000000); /* Neon green gradient on hover */
+}
+
+
+
+.banner-text {
+  font-size: 36px;
+  color: #0c0000;
+  padding-left: 4%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main {
+  height: max-content;
+  background: url(../assets/background1.jpeg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: cover;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* Styles untuk overlay pada latar belakang */
+.main {
+  position: relative;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+
+/* Pastikan konten di atas overlay */
+.main > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+.logo-img {
+  border-radius: 50%;
+  border: 2px solid #fff; /* Jika ingin menambahkan garis tepi pada gambar */
+  padding: 3px; /* Jika ingin menambahkan ruang antara gambar dan garis tepi */
+}
+
+.text-container h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Lucida Sans';
+}
+
+.text-container p {
+  color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS';
+}
+
+.container h2 {
+  color: rgb(0, 0, 0);
+  font-family: 'Lucida Sans';
+}
+
+.container p {
+  color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS',  'Lucida Grande',  Arial;
+}
+
+
+.bayi {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  margin-right: 20px;
+}
+
+.bayi.img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+
+.card {
+  background:  linear-gradient(45deg,#b4b4b4,#323738,#b4b4b4);
+  color: #fff;
+  border: none;
+}
+
+/* Gaya tombol pada card */
+.card .btn-danger {
+  background-color: #f00;
+}
+
+/* Gaya tombol hover pada card */
+.card .btn-danger:hover {
+  background-color: #c00;
+}
+
+.row.text-center {
+  display: flex;
+  align-items: stretch;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col-md-6 p {
+  flex-grow: 1;
+}
+footer a {
+  color: rgb(255, 255, 255);
+}
+
+.footerp p{
+color: #ffffff;
+}
+.footerp h5{
+color: #ffffff;
+}
+
+.background-transparan{
+  background:  linear-gradient(45deg,#213f3e,#273a3d,#2d4d4e);
+}
+
+@media (max-width: 1000px) {
+  .home-header {
+    background-size: 5%;
+  }
+
+
+
+  .banner-text,
+  .text-container h1,
+  .text-container p {
+    font-size: 24px;
+  }
+
+
+
+  .gajah {
+    display: flex;
+    justify-content: left; /* Mengatur posisi horizontal ke tengah */
+    width: 100%;
+  }
+}
+
+

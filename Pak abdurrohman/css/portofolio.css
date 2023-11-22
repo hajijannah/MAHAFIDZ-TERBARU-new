@@ -1,0 +1,144 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.baru {
+  background: linear-gradient(45deg, #000000,#010101c3,#000000c3);
+}
+
+
+/* Mengatur tata letak untuk elemen navbar-nav agar berada di tengah */
+.gajah {
+  display: flex;
+  justify-content: center; /* Mengatur posisi horizontal ke tengah */
+  width: 100%;
+}
+
+/* Teks 'MAHAFIDZ' tetap besar ketika tautan terpilih (aktif) */
+.navbar-nav .nav-item .nav-link.active + .mahafidz-text {
+  font-size: 100rem; /* Ubah ukuran teks sesuai keinginan Anda */
+  /* Aturan gaya tambahan lainnya jika diperlukan */
+}
+
+
+
+.navbar {
+  background: linear-gradient(45deg, #000000,#010101c3,#000000c3);
+  width: 100%;
+  padding-left: 20px;
+}
+
+.navbar-atur
+{
+  margin-left: 10px
+}
+
+
+.navbar-nav .nav-link {
+  color: white !important;
+  width: fit-content;
+}
+
+  .blue{
+    font-family: 'Franklin Gothic Medium';
+
+  }
+
+  
+  .nav-link.active {
+    width: fit-content;
+    background-color: #FF0000; /* Ganti dengan warna latar belakang yang Anda inginkan */
+  }
+  
+  /* Gaya untuk teks dalam item navbar yang aktif */
+  .nav-link.active a {
+    color: #FFFFFF; /* Ganti dengan warna teks yang sesuai */
+  }
+
+  .haha h2{
+    font-family: 'Lucida Sans';
+  }
+  .haha p{
+    font-family: 'Trebuchet MS',  'Lucida Grande',  Arial;
+  }
+
+  footer a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .footerp p{
+    font-family: 'Trebuchet MS',  'Lucida Grande',  Arial;
+  color: #fff7f7;
+  }
+  .footerp h5{
+  color: #ffffff;
+  }
+  
+  .background-transparan{
+    background:  linear-gradient(45deg,#213f3e,#273a3d,#2d4d4e);
+  }
+
+.remove-bullet ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+/* Hover effect */
+.btn-danger {
+  background-image: linear-gradient(to right, #353535, #000000); /* Neon green gradient on hover */
+}
+
+/* Mengatur ukuran font teks "MAHAFIDZ" menjadi 50px */
+.kata {
+  font-size: 20px ;
+  padding-right: 10px;
+}
+
+footer {
+  color: white;
+}
+
+.carousel-container {
+  border: 2px solid rgb(255, 1, 1);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+  /* Gaya tambahan untuk tombol agar sejajar */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify
+  }
+
+
+@media (max-width: 1000px) {
+  .home-header {
+    background-size: 5%;
+  }
+
+
+  .banner-text,
+  .text-container h1,
+  .text-container p {
+    font-size: 24px;
+  }
+
+
+
+
+  .gajah {
+    display: flex;
+    justify-content: left; /* Mengatur posisi horizontal ke tengah */
+    width: 100%;
+  }
+
+    /* Gaya tambahan untuk tombol agar sejajar */
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify
+    }
+}

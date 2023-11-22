@@ -1,0 +1,147 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.baru {
+  background: linear-gradient(45deg, #000000,#010101c3,#000000c3);
+}
+
+
+/* Mengatur tata letak untuk elemen navbar-nav agar berada di tengah */
+.gajah {
+  display: flex;
+  justify-content: center; /* Mengatur posisi horizontal ke tengah */
+  width: 100%;
+}
+
+
+
+
+.navbar {
+  background: linear-gradient(45deg, #000000,#010101c3,#000000c3);
+  width: 100%;
+  padding-left: 20px;
+}
+
+.navbar-atur
+{
+  margin-left: 10px
+}
+
+
+.navbar-nav .nav-link {
+  color: white !important;
+  width: fit-content;
+}
+
+  .blue{
+    font-family: 'Franklin Gothic Medium';
+
+  }
+
+  
+  .nav-link.active {
+    width: fit-content;
+    background-color: #FF0000; /* Ganti dengan warna latar belakang yang Anda inginkan */
+  }
+  
+  /* Gaya untuk teks dalam item navbar yang aktif */
+  .nav-link.active a {
+    color: #FFFFFF; /* Ganti dengan warna teks yang sesuai */
+  }
+
+  footer a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .footerp p{
+  color: #ffffff;
+  }
+  .footerp h5{
+  color: #ffffff;
+  }
+  
+  .background-transparan{
+    background:  linear-gradient(45deg,#213f3e,#273a3d,#2d4d4e);
+  }
+.remove-bullet ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hover effect */
+.btn-danger {
+  background-image: linear-gradient(to right, #353535, #000000); /* Neon green gradient on hover */
+}
+
+.card {
+  background:  linear-gradient(45deg,#b4b4b4,#323738,#b4b4b4);
+  color: #fff;
+  border: none;
+}
+
+.card {
+  height: 100%;
+}
+
+  /* Gaya tambahan untuk tombol agar sejajar */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    align-self:flex-start
+  }
+  .card-img-top {
+    height:auto; /* Sesuaikan tinggi gambar */
+    object-fit: cover;
+  }
+
+  .text-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans';
+  }
+  
+  .text-container p {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
+  }
+  
+  .container h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans';
+  }
+  
+  .container p {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS',  'Lucida Grande',  Arial;
+  }
+
+  @media (max-width: 1000px) {
+    .home-header {
+    background-size: 5%;
+  }
+
+
+  .banner-text,
+  .text-container h1,
+  .text-container p {
+    font-size: 24px;
+  }
+
+
+
+  .gajah {
+    display: flex;
+    justify-content: left; /* Mengatur posisi horizontal ke tengah */
+    width: 100%;
+  }
+}
