@@ -2,6 +2,9 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.our-client{
+  padding-top: 70px;
+}
 
 div.client img{
 filter: grayscale(100%);
