@@ -211,12 +211,36 @@ color: #ffffff;
   background:  linear-gradient(45deg,#213f3e,#273a3d,#2d4d4e);
 }
 
+.image-container img {
+  width: 700px; /* Ubah nilai ini sesuai dengan kebutuhan Anda */
+  height: auto; /* Ini akan menjaga rasio aspek gambar */
+}
+
 @media (max-width: 1000px) {
   .home-header {
     background-size: 5%;
   }
 
+  .bayi {
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak menjadi kolom pada tampilan hp */
+    align-items: center; /* Mengatur penempatan horizontal ke tengah */
+  }
+  .image-container img {
+    width: 200px; /* Ubah nilai ini sesuai dengan kebutuhan Anda */
+    height: auto; /* Ini akan menjaga rasio aspek gambar */
+  }
 
+  .image-container {
+    margin-bottom: 20px; /* Memberikan jarak antara gambar dan teks */
+  }
+
+
+  .text-container h1 {
+    margin-bottom: 10px; /* Memberikan jarak antara h1 dan gambar */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+
+  }
 
   .banner-text,
   .text-container h1,

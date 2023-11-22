@@ -201,6 +201,26 @@ color: #ffffff;
   width: 100%;
 }
 
+.bayi {
+  display: flex;
+  flex-direction: column; /* Mengatur tata letak menjadi kolom pada tampilan hp */
+  align-items: center; /* Mengatur penempatan horizontal ke tengah */
+}
+.image-container img {
+  width: 200px; /* Ubah nilai ini sesuai dengan kebutuhan Anda */
+  height: auto; /* Ini akan menjaga rasio aspek gambar */
+}
+
+.image-container {
+  margin-bottom: 20px; /* Memberikan jarak antara gambar dan teks */
+}
+
+
+.text-container h1 {
+  margin-bottom: 10px; /* Memberikan jarak antara h1 dan gambar */
+  text-align: center; /* Mengatur teks agar berada di tengah */
+
+}
 
 }
 
