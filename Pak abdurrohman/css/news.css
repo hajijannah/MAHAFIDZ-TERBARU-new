@@ -85,7 +85,9 @@
   padding: 0;
 }
 
-
+.link-decoration li {
+  list-style: none; /* Remove bullets */
+}
 
 /* Hover effect */
 .btn-danger {
