@@ -71,7 +71,7 @@
     font-family: 'Trebuchet MS',  'Lucida Grande',  Arial;
   color: #fff7f7;
   }
-  .footerp h5{
+  .footerp h6{
   color: #ffffff;
   }
   
@@ -117,6 +117,10 @@ footer {
     color: inherit; /* Menggunakan warna teks yang diwarisi dari elemen induk */
   }
 
+  .link-decoration li {
+    list-style: none; /* Remove bullets */
+  }
+  
 @media (max-width: 1000px) {
   .home-header {
     background-size: 5%;
