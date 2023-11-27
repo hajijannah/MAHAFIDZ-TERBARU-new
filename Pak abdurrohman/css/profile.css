@@ -56,8 +56,8 @@
     color: white;
   }
 
-.remove-bullet ul {
-  list-style-type: none;
+  .remove-list ul {
+    list-style-type: none;
   margin: 0;
   padding: 0;
 }

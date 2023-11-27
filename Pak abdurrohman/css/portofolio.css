@@ -74,8 +74,8 @@
   .background-transparan{
     background:  linear-gradient(45deg,#000000,#152325,#2d4d4e);
   }
-.remove-bullet ul {
-  list-style-type: none;
+  .remove-list ul {
+    list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -113,6 +113,8 @@ footer {
   .link-decoration li {
     list-style: none; /* Remove bullets */
   }
+  
+
   
 @media (max-width: 1000px) {
   .home-header {
