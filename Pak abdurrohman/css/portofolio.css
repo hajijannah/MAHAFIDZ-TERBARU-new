@@ -15,11 +15,7 @@
   width: 100%;
 }
 
-/* Teks 'MAHAFIDZ' tetap besar ketika tautan terpilih (aktif) */
-.navbar-nav .nav-item .nav-link.active + .mahafidz-text {
-  font-size: 100rem; /* Ubah ukuran teks sesuai keinginan Anda */
-  /* Aturan gaya tambahan lainnya jika diperlukan */
-}
+
 
 
 
@@ -89,11 +85,7 @@
   background-image: linear-gradient(to right, #353535, #000000); /* Neon green gradient on hover */
 }
 
-/* Mengatur ukuran font teks "MAHAFIDZ" menjadi 50px */
-.kata {
-  font-size: 20px ;
-  padding-right: 10px;
-}
+
 
 footer {
   color: white;
