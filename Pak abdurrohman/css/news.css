@@ -2,23 +2,19 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
-/* Gaya latar belakang card */
 .card {
-  background:  linear-gradient(45deg,#b4b4b4,#323738,#b4b4b4);
-  color: #fff;
+  border-radius: 10px; /* Mengatur sudut melengkung */
+  overflow: hidden; /* Menghilangkan konten yang melampaui batas container yang melengkung */
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1); /* Menambahkan box shadow di pinggir container */
+}
+
+.card {
+  background:linear-gradient( #ffffff);
+  color: #000000;
   border: none;
 }
-  
-  /* Gaya tombol pada card */
-  .card .btn-danger {
-    background-color: #f00;
-  }
-  
-  /* Gaya tombol hover pada card */
-  .card .btn-danger:hover {
-    background-color: #c00;
-  }
+
+
   
   .baru {
     background: linear-gradient(45deg, #000000,#010101c3,#000000c3);
@@ -80,7 +76,7 @@
     }
     
     .background-transparan{
-      background:  linear-gradient(45deg,#213f3e,#273a3d,#2d4d4e);
+      background:  linear-gradient(45deg,#000000,#152325,#2d4d4e);
     }
 
 .remove-bullet ul {
@@ -90,11 +86,11 @@
 }
 
 
+
 /* Hover effect */
 .btn-danger {
-  background-image: linear-gradient(to right, #353535, #000000); /* Neon green gradient on hover */
+  background-image: linear-gradient(to right, #000000, #190e0e); /* Neon green gradient on hover */
 }
-
 .text-container h1 {
   color: rgb(255, 255, 255);
   font-family: 'Lucida Sans';
@@ -113,6 +109,11 @@
 .container p {
   color: rgb(255, 255, 255);
   font-family: 'Trebuchet MS',  'Lucida Grande',  Arial;
+}
+
+a {
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  color: inherit; /* Menggunakan warna teks yang diwarisi dari elemen induk */
 }
 
 @media (max-width: 1000px) {

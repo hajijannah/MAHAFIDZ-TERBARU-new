@@ -70,8 +70,9 @@ div.client img:hover{
   }
   
   .background-transparan{
-    background:  linear-gradient(45deg,#213f3e,#273a3d,#2d4d4e);
+    background:  linear-gradient(45deg,#000000,#152325,#2d4d4e);
   }
+  
 .remove-bullet ul {
   list-style-type: none;
   margin: 0;
@@ -99,6 +100,11 @@ div.client img:hover{
 }
 #footer p{
   color:#FFFFFF ;
+}
+
+a {
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  color: inherit; /* Menggunakan warna teks yang diwarisi dari elemen induk */
 }
 
 @media (max-width: 1000px) {

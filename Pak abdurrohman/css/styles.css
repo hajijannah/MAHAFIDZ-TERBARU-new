@@ -32,11 +32,6 @@
 
 
 
-.logo-img {
-  border-radius: 50%;
-  border: 2px solid #fff; /* Jika ingin menambahkan garis tepi pada gambar */
-  padding: 3px; /* Jika ingin menambahkan ruang antara gambar dan garis tepi */
-}
 
 
 .baru {
@@ -92,11 +87,6 @@
   width: 100%;
 }
 
-.home-header {
-  background: linear-gradient( rgba(37, 36, 36, 0.7),rgb(252, 252, 252))
-  background-position: center;
-  background-size: 1%;
-}
 
 .banner-text {
   font-size: 36px;
@@ -132,8 +122,10 @@
   align-items: center;
 }
 
+
 .image-container {
   margin-right: 20px;
+  
 }
 
 .bayi.img {
@@ -141,6 +133,20 @@
   max-width: 200px;
   height: auto;
 }
+
+.buah {
+  box-shadow: 0 0 0 10px #000000, 0 0 0 15px #FFFFFF;
+  transition: box-shadow 0.5s;
+  width: 400px; /* Ubah nilai ini sesuai dengan kebutuhan Anda */
+  height: auto; /* Ini akan menjaga rasio aspek gambar */
+  border-radius: 45px;
+}
+
+.buah:hover {
+  box-shadow: 0 0 0 5px #fff, 0 0 0 10px rgb(40, 40, 55);
+}
+
+
 
 footer a {
   color: rgb(255, 255, 255);
@@ -154,9 +160,45 @@ color: #ffffff;
 }
 
 .background-transparan{
-  background:  linear-gradient(45deg,#213f3e,#273a3d,#2d4d4e);
+  background:  linear-gradient(45deg,#000000,#152325,#2d4d4e);
 }
 
+.image-container {
+  position: relative;
+}
+
+.image-container::after {
+  content: "";
+  background: url('../assets/26982.jpg');
+  opacity: 0.5; /* Sesuaikan tingkat transparansi sesuai kebutuhan */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; /* Pastikan z-index lebih rendah dari gambar dan teks */
+}
+
+.text-container {
+  position: relative;
+}
+
+.text-container::after {
+  content: "";
+  background: url('../assets/background\ tulisan.jpg');
+  opacity: 0.5; /* Sesuaikan tingkat transparansi sesuai kebutuhan */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; /* Pastikan z-index lebih rendah dari teks */
+}
+
+a {
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  color: inherit; /* Menggunakan warna teks yang diwarisi dari elemen induk */
+}
 
 
 

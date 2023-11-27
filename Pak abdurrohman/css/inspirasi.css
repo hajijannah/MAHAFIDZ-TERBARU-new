@@ -63,7 +63,7 @@
   }
   
   .background-transparan{
-    background:  linear-gradient(45deg,#213f3e,#273a3d,#2d4d4e);
+    background:  linear-gradient(45deg,#000000,#152325,#2d4d4e);
   }
 .remove-bullet ul {
   list-style-type: none;
@@ -73,11 +73,11 @@
 
 /* Hover effect */
 .btn-danger {
-  background-image: linear-gradient(to right, #353535, #000000); /* Neon green gradient on hover */
+  background-image: linear-gradient(to right, #312a2a, #190e0e); /* Neon green gradient on hover */
 }
 
 .card {
-  background:  linear-gradient(45deg,#b4b4b4,#323738,#b4b4b4);
+  background:  linear-gradient(45deg,#424040,#0e0b0b);
   color: #fff;
   border: none;
 }
@@ -125,6 +125,11 @@
     font-family: 'Trebuchet MS',  'Lucida Grande',  Arial;
   }
 
+  a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: inherit; /* Menggunakan warna teks yang diwarisi dari elemen induk */
+  }
+  
   @media (max-width: 1000px) {
     .home-header {
     background-size: 5%;
